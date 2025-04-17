@@ -1,0 +1,23 @@
+{
+  "name": "onnx-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./esbuild.config.js",
+    "prepare": "ts-patch install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "typia": "^9.1.1"
+  },
+  "devDependencies": {
+    "@ryoppippi/unplugin-typia": "^2.2.0",
+    "esbuild": "^0.25.2",
+    "ts-patch": "^3.3.0",
+    "typescript": "~5.8.3"
+  }
+}
