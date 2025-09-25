@@ -12,6 +12,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.8.1",
   "dependencies": {
+    "onnxruntime-node": "^1.22.0",
     "typia": "^9.1.1"
   },
   "devDependencies": {
